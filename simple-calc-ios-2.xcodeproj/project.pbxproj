@@ -14,6 +14,7 @@
 		2D7500DF1FA9183900007909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7500DD1FA9183900007909 /* LaunchScreen.storyboard */; };
 		2D7500EA1FA9183900007909 /* simple_calc_ios_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7500E91FA9183900007909 /* simple_calc_ios_2Tests.swift */; };
 		2D7500F51FA9183900007909 /* simple_calc_ios_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7500F41FA9183900007909 /* simple_calc_ios_2UITests.swift */; };
+		2D7501031FA9197D00007909 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7501021FA9197D00007909 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2D7500F01FA9183900007909 /* simple-calc-ios-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-calc-ios-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7500F41FA9183900007909 /* simple_calc_ios_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_calc_ios_2UITests.swift; sourceTree = "<group>"; };
 		2D7500F61FA9183900007909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D7501021FA9197D00007909 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				2D7500DB1FA9183900007909 /* Assets.xcassets */,
 				2D7500DD1FA9183900007909 /* LaunchScreen.storyboard */,
 				2D7500E01FA9183900007909 /* Info.plist */,
+				2D7501021FA9197D00007909 /* TableViewController.swift */,
 			);
 			path = "simple-calc-ios-2";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D7500D71FA9183900007909 /* ViewController.swift in Sources */,
+				2D7501031FA9197D00007909 /* TableViewController.swift in Sources */,
 				2D7500D51FA9183900007909 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
